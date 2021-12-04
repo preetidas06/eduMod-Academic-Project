@@ -1,1 +1,168 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
 
+#title {
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/*section*/
+
+.colored-section {
+    background-color: #f75e4a;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*heading*/
+.big-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.computer {
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    width: 65%;
+    height: 65%;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 0;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.computer #gif {
+    position: absolute;
+    top: 48.5%;
+    left: 50%;
+    width: 50%;
+    padding-top: 32%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    z-index: 15;
+    z-index: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-image: url(iphone6.jpeg);
+}
+.computer img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* features */
+#features {
+    padding: 7% 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #8dcec1;
+}
+.icon-heading {
+    color: black;
+}
+.icon-heading:hover {
+    text-decoration: underline black;
+}
+
+/*Testimonial Section*/
+#preview {
+    background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 5% 5%;
+}
+
+
+/*footer section*/
+
+#footer {
+    padding: 7% 15%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+}
